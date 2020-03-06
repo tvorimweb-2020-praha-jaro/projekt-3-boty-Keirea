@@ -4,6 +4,7 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    background-color: #f5f5f5;
 }
 
 /*
@@ -21,3 +22,139 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.zbozi {
+    margin-left:100px;
+    margin-top: 100px;
+    width: 670px;
+    height: 440px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Rubik', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);    
+}
+
+.vizual {
+    display: inline-block;
+    position: relative;
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    margin: 0px;
+    border-radius: 10px 0 0 10px;
+    padding: 30px;
+    width: 50%;
+}
+
+.logo {
+    padding-bottom: 30px;
+}
+
+.slogan {
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.bota {
+    position: absolute;
+    left: -80px;
+}
+
+.cenovka {
+    color: white;
+    display: block;
+    float: right;
+    padding-top: 222px;
+    
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+    float: right;
+}
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* <!-- konec .vizual --> */
+
+.detaily {
+    width: 50%;
+    padding: 30px;
+    margin: 0;
+}
+
+.nazev {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+}
+.produkt {
+    color: #959595;
+    font-size: 14px;
+}
+.popis {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid #06d7c1;
+}
+
+.parametr {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-stretch: narrower;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.velikosti {
+    margin-top: -10px;
+	padding: 0;
+    list-style: none;
+    font-size: 14px;
+    
+}
+
+.velikosti li {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 45px;
+}
+
+.vybrana { 
+    border-radius: 50%;
+    color: #f15f42;
+    border: 1px solid #f15f42;
+    font-weight: 500;
+    
+}
+
+.akce {
+    background-color: #f15f42;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+  }
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+    
+
+
+
+
+
